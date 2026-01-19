@@ -5,7 +5,7 @@ Trains a model to predict the result of soccer matches based on previous data <b
 
 It uses a 1) random tree classifier and 2) xgboost as well.  <br>
 
-1 Random tree <br>
+# 1 Random tree <br>
 
 The out of bag scores are as follows: <br>
 
@@ -24,7 +24,7 @@ The more important features were <br>
 <img width="994" height="545" alt="image" src="https://github.com/user-attachments/assets/246da0f1-4846-4bc0-b868-ab5c01c0d579" />
 
 
-2) Add xgboost <br>
+# 2) Add xgboost <br>
 
 The confusion matrix is as follows: <br>
 
@@ -35,7 +35,7 @@ The important features: <br>
 <img width="994" height="547" alt="image" src="https://github.com/user-attachments/assets/77d3d02e-14a3-4c80-9535-20217b3c75e3" />
 
 
-## To run this:
+# To run this:
 
 You have to install uv <br>
 
@@ -43,6 +43,6 @@ Make sure your python between [ 3.12 - 4 ) <br>
 
 uv sync --extra dev <br>
 
-## TODO
+# TODO
 This will be made into an app which picks up the data online  and makes future predictions on matches
 
